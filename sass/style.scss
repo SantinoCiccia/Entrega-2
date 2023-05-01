@@ -1,10 +1,7 @@
-
 body {
     text-align: center;
     font-family: sans-serif;
 }
-
-
 
 main {
     /*
@@ -14,19 +11,16 @@ main {
     padding-top: 0px;
 }
 
-
-
 .logo {
     margin-left: 30px;
-}
 
-.logo a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 20px;
+    a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
 }
-
 
 .tittle {
     margin-bottom: 0px;
@@ -38,10 +32,10 @@ main {
 
 .Telefono {
     font-size: 30px;
-text-align: center;
+    text-align: center;
 }
 
-.volver-contacto{
+.volver-contacto {
     color: #171717;
 }
 
@@ -51,7 +45,6 @@ text-align: center;
     margin: 10px;
 }
 
-
 .content {
     height: 50vh;
     display: flex;
@@ -59,29 +52,30 @@ text-align: center;
     justify-content: center;
     align-items: center;
     background-color: #171717;
-
 }
 
 .header {
     height: 50vh;
-}
-/* Carrousel */
-.header .carousel img {
-    width: 100%;
-    height: 50vh;
+
+    .carousel img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        height: 100%;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        margin-left: 15vw;
+    }
 }
 
-.header .header-text {
-    display: flex;
-    flex-direction: column;
-    width: 70vw;
-    height: 100%;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-    margin-left: 15vw;
-}
+/* Carrousel */
 
 .sau {
     padding: 50px;
@@ -93,41 +87,41 @@ text-align: center;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+
+    .box {
+        height: 170px;
+        width: 270px;
+        background: #171717;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 3);
+        margin: 20px;
+
+        i {
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 50%;
+            color: white;
+            background: #3763db;
+            font-size: 25px;
+            margin: 10px 0;
+        }
+    }
+
+    &.box h3 {
+        font-size: 20px;
+        color: #485a8b;
+    }
+
+    .box p {
+        padding: 0 15px;
+        font-size: 16px;
+    }
 }
 
-.box-container .box {
-    height: 170px;
-    width: 270px;
-    background: #171717;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 3);
-    margin: 20px;
-}
-
-.box-container .box i {
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 50%;
-    color: white;
-    background: #3763db;
-    font-size: 25px;
-    margin: 10px 0;
-}
-
-.box-container.box h3 {
-    font-size: 20px;
-    color: #485a8b;
-}
-
-.box-container .box p {
-    padding: 0 15px;
-    font-size: 16px;
-}
-
-h3{
+h3 {
     color: white;
 }
 
@@ -156,43 +150,41 @@ h3{
     justify-content: center;
     padding-top: 50px;
     flex-wrap: wrap;
-}
 
-.box-container2 .box {
-    width: 250px;
-    padding-bottom: 20px;
-    text-align: center;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
-    background: #171717;
-    margin: 20px 20px;
-}
+    .box {
+        width: 250px;
+        padding-bottom: 20px;
+        text-align: center;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+        background: #171717;
+        margin: 20px 20px;
 
-.box-container2 .box img {
-    height: 60px;
-    width: 70px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-top: −50px;
-    border: 6px solid #3763db;
-}
+        img {
+            height: 60px;
+            width: 70px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-top: −50px;
+            border: 6px solid #3763db;
+        }
 
-.box-container2 .box h3 {
-    font-size: 20px;
-    color: #3763db;
-    padding-top: 10px;
-}
+        h3 {
+            font-size: 20px;
+            color: #3763db;
+            padding-top: 10px;
+        }
 
-.box-container2 .box p {
+        p {
+            font-size: 18px;
+            color: white;
+            padding: 0;
+        }
 
-    font-size: 18px;
-    color: white;
-    padding: 0;
-
-}
-
-.box-container2 .box .stars i {
-    font-size: 15px;
-    color: #366397;
+        .stars i {
+            font-size: 15px;
+            color: #366397;
+        }
+    }
 }
 
 .contact {
@@ -208,16 +200,15 @@ footer {
     align-items: flex-start;
     flex-direction: column;
     background-color: #cbd2e5;
-}
 
-footer a {
-    color: #171717;
+    a {
+        color: #171717;
+    }
 
-}
-
-footer ul {
-    display: flex;
-    align-items: flex-start;
+    ul {
+        display: flex;
+        align-items: flex-start;
+    }
 }
 
 .producto-content {
@@ -255,9 +246,7 @@ a {
 .precio-titulo {
     font-size: 60px;
     height: 100px;
-    
 }
-
 
 .content-precios h5 {
     background: #171717;
@@ -268,7 +257,6 @@ a {
     justify-content: center;
     align-items: center;
 }
-
 
 th,
 td {
@@ -286,7 +274,6 @@ table {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
 }
 
 .formulario-contacto {
@@ -296,46 +283,40 @@ table {
     color: white;
 }
 
-.nombre {
-    padding: 5px;
-}
-
-.apellido {
-    padding: 5px;
-}
-
+.nombre,
+.apellido,
 .correo-electronico {
     padding: 5px;
 }
 
-.enviar-boton{   
+.enviar-boton {
     border-radius: 10px;
 }
 
-.btn{
-   color: white;
-   display: block;
-   border-radius: 4px;
-   text-transform: uppercase;
-   background-color: transparent;
-   overflow: hidden;
-   transition: all 500ms ease;
-   border: 2px solid black;
-   
+.btn {
+    color: white;
+    display: block;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: transparent;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid black;
 }
-
 
 @media (max-width: 992px) {
     .header {
         height: 100vh;
+
+        .carousel img {
+            height: 100vh;
+        }
     }
-    .header .carousel img {
+
+    .content {
         height: 100vh;
     }
 
-    .content{
-        height: 100vh;
-    }
     .sau {
         height: 180vh;
     }
