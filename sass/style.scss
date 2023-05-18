@@ -1,14 +1,14 @@
+@import "./secciones/nosotros";
+@import "./secciones/general";
+
+.nosotros {
+    background-color: #ddd7d7;
+}
+
 body {
     text-align: center;
     font-family: sans-serif;
-}
-
-main {
-    /*
-        Mismo height que el nav para separarlo y que el
-        contenido no se muestre abajo de la navegacion
-    */
-    padding-top: 0px;
+background-color: #ddd7d7 !important;
 }
 
 .logo {
@@ -226,9 +226,9 @@ a {
 
 .nosotros p {
     color: #171717;
-    font-size: 18px;
+    font-size: 35px;
     font-family: sans-serif;
-    padding: 10px;
+    padding: 120px;
 }
 
 .about-us {
@@ -294,14 +294,13 @@ table {
 }
 
 .btn {
-    color: white;
+    color: rgb(255, 255, 255);
     display: block;
     border-radius: 4px;
     text-transform: uppercase;
     background-color: transparent;
     overflow: hidden;
     transition: all 500ms ease;
-    border: 2px solid black;
 }
 
 @media (max-width: 992px) {
@@ -327,6 +326,8 @@ header .navbar {
     color: #171717;
     padding: 20px;
 }
+
+
 
 .col {
     padding: 10px;
