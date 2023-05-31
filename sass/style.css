@@ -1,0 +1,328 @@
+@charset "UTF-8";
+.nosotros {
+  background-color: #303030;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.nosotros {
+  background-color: #ddd7d7;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #ddd7d7 !important;
+}
+
+.logo {
+  margin-left: 30px;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.tittle {
+  margin-bottom: 0px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+.Telefono {
+  font-size: 30px;
+  text-align: center;
+}
+
+.volver-contacto {
+  color: #171717;
+}
+
+.comision-footer {
+  font-size: 18px;
+  color: white;
+  margin: 10px;
+}
+
+.content {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #171717;
+}
+
+.header {
+  height: 50vh;
+}
+.header .carousel img {
+  width: 100%;
+  height: 50vh;
+}
+.header .header-text {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  margin-left: 15vw;
+}
+
+/* Carrousel */
+.sau {
+  padding: 50px;
+  background: #303030;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.box-container .box {
+  height: 170px;
+  width: 270px;
+  background: #171717;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgb(0, 0, 0);
+  margin: 20px;
+}
+.box-container .box i {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  background: #3763db;
+  font-size: 25px;
+  margin: 10px 0;
+}
+.box-container.box h3 {
+  font-size: 20px;
+  color: #485a8b;
+}
+.box-container .box p {
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+h3 {
+  color: white;
+}
+
+.price {
+  background: url(../img/haeder3.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.about {
+  background: #366397;
+  padding: 50px 0;
+}
+
+.h2 {
+  font-size: 100px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+}
+
+.box-container2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+.box-container2 .box {
+  width: 250px;
+  padding-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  background: #171717;
+  margin: 20px 20px;
+}
+.box-container2 .box img {
+  height: 60px;
+  width: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-top: −50px;
+  border: 6px solid #3763db;
+}
+.box-container2 .box h3 {
+  font-size: 20px;
+  color: #3763db;
+  padding-top: 10px;
+}
+.box-container2 .box p {
+  font-size: 18px;
+  color: white;
+  padding: 0;
+}
+.box-container2 .box .stars i {
+  font-size: 15px;
+  color: #366397;
+}
+
+.contact {
+  padding: 50px 0;
+  background: #171717;
+  height: 80vh;
+}
+
+footer {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #cbd2e5;
+}
+footer a {
+  color: #171717;
+}
+footer ul {
+  display: flex;
+  align-items: flex-start;
+}
+
+.producto-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+a {
+  color: #171717;
+  display: flex;
+  padding: 20px;
+}
+
+.nosotros p {
+  color: #171717;
+  font-size: 35px;
+  font-family: sans-serif;
+  padding: 120px;
+}
+
+.about-us {
+  padding: 50px;
+  font-size: 50px;
+}
+
+.content-nosotros h5 {
+  padding: 50px 0;
+  background: #171717;
+  color: white;
+  font-size: 60px;
+}
+
+.precio-titulo {
+  font-size: 60px;
+  height: 100px;
+}
+
+.content-precios h5 {
+  background: #171717;
+  color: white;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+th,
+td {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.content-precios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario-contacto {
+  padding: 15px;
+  margin: 15px;
+  text-align: start;
+  color: white;
+}
+
+.nombre,
+.apellido,
+.correo-electronico {
+  padding: 5px;
+}
+
+.enviar-boton {
+  border-radius: 10px;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  display: block;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: transparent;
+  overflow: hidden;
+  transition: all 500ms ease;
+}
+
+@media (max-width: 992px) {
+  .header {
+    height: 100vh;
+  }
+  .header .carousel img {
+    height: 100vh;
+  }
+  .content {
+    height: 100vh;
+  }
+  .sau {
+    height: 180vh;
+  }
+  #producto col {
+    width: 95vw;
+  }
+}
+header .navbar {
+  background-color: #4c4848 !important;
+  color: #171717;
+  padding: 20px;
+}
+
+.col {
+  padding: 10px;
+}
+
+p {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
